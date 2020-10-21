@@ -1,10 +1,16 @@
 import React, {FC} from "react";
-import Test from '../../components/Test'
+import TodoList from "../../components/todo-list";
+// import Test from '../../components/Test'
+
+import './index.less';
 
 const Home: FC = () => {
+
     return (
         <div className="home">
-            <Test/>
+            <h1>TDD & BDD</h1>
+            <TodoList/>
+            {/*<Test/>*/}
         </div>
     )
 }
