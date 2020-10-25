@@ -2,33 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca73559f-1cb5-4fee-8b9f-df0a84fc1344" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/__test__/list.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/__test__/operate-panel.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/interface/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/list/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/todo-list/operate-panel/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/todo-list/__test__/todolist.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/unit-2/2-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/unit-2/2-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/todo-list/list/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/list/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../company_project/1021/62007" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../company_project/1028/61002" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,7 +40,7 @@
       <recent name="D:\ProjectFile\daily_exercise\react-unit-test\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Operate-Panel">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration name="Operate-Panel" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -72,20 +51,6 @@
       <test-file value="$PROJECT_DIR$/src/components/todo-list/__test__/operate-panel.test.tsx" />
       <test-names>
         <test-name value="Operate-Panel" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Operate-Panel.输入内容后，回车调用外层的 dispatch" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/todo-list/__test__/operate-panel.test.tsx" />
-      <test-names>
-        <test-name value="Operate-Panel" />
-        <test-name value="输入内容后，回车调用外层的 dispatch" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -117,6 +82,20 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="Todo-List.在输入框中输入内容回车后，应该新增一条todo-item" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/todo-list/__test__/todolist.test.tsx" />
+      <test-names>
+        <test-name value="Todo-List" />
+        <test-name value="在输入框中输入内容回车后，应该新增一条todo-item" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Util" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -130,13 +109,16 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="Jest.Todo-List.在输入框中输入内容回车后，应该新增一条todo-item" />
         <item itemvalue="Jest.Operate-Panel" />
         <item itemvalue="Jest.Util" />
         <item itemvalue="Jest.Operate-Panel.input 内容为空时，什么都不做，不触发 dispatch" />
-        <item itemvalue="Jest.Operate-Panel.输入内容后，不回车，不会触发 dispatch" />
-        <item itemvalue="Jest.Operate-Panel.输入内容后，回车调用外层的 dispatch" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +140,8 @@
       <workItem from="1603159380941" duration="27000" />
       <workItem from="1603159433625" duration="38000" />
       <workItem from="1603159794817" duration="698000" />
-      <workItem from="1603161032178" duration="29553000" />
+      <workItem from="1603161032178" duration="33835000" />
+      <workItem from="1603347001397" duration="13364000" />
     </task>
     <servers />
   </component>
@@ -169,85 +152,105 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="573" y="171" key="FileChooserDialogImpl" timestamp="1603159896445">
-      <screen x="63" y="0" width="1473" height="813" />
+    <state x="573" y="171" key="FileChooserDialogImpl" timestamp="1603367930679">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
     <state x="572" y="171" key="FileChooserDialogImpl/62.0.1474.811@62.0.1474.811" timestamp="1603070269207" />
     <state x="572" y="171" key="FileChooserDialogImpl/62.0.1474.812@62.0.1474.812" timestamp="1602727303969" />
-    <state x="573" y="171" key="FileChooserDialogImpl/63.0.1473.811@63.0.1473.811" timestamp="1603123587401" />
+    <state x="573" y="171" key="FileChooserDialogImpl/63.0.1473.811@63.0.1473.811" timestamp="1603367930679" />
     <state x="573" y="171" key="FileChooserDialogImpl/63.0.1473.812@63.0.1473.812" timestamp="1603077417810" />
     <state x="573" y="171" key="FileChooserDialogImpl/63.0.1473.813@63.0.1473.813" timestamp="1603159896445" />
-    <state width="1430" height="272" key="GridCell.Tab.0.bottom" timestamp="1603294198547">
-      <screen x="63" y="0" width="1473" height="813" />
+    <state width="1430" height="273" key="GridCell.Tab.0.bottom" timestamp="1603371689064">
+      <screen x="63" y="0" width="1473" height="812" />
     </state>
-    <state width="1430" height="460" key="GridCell.Tab.0.bottom/63.0.1473.811@63.0.1473.811" timestamp="1603281791402" />
+    <state width="1430" height="260" key="GridCell.Tab.0.bottom/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
+    <state width="1430" height="273" key="GridCell.Tab.0.bottom/63.0.1473.812@63.0.1473.812" timestamp="1603371689064" />
     <state width="1430" height="272" key="GridCell.Tab.0.bottom/63.0.1473.813@63.0.1473.813" timestamp="1603294198547" />
     <state width="1430" height="263" key="GridCell.Tab.0.bottom/63.0.1473.814@63.0.1473.814" timestamp="1603267965365" />
-    <state width="1430" height="272" key="GridCell.Tab.0.center" timestamp="1603294198546">
-      <screen x="63" y="0" width="1473" height="813" />
+    <state width="1430" height="271" key="GridCell.Tab.0.bottom/63.0.1473.817@63.0.1473.817" timestamp="1603361150417" />
+    <state width="1430" height="273" key="GridCell.Tab.0.center" timestamp="1603371689063">
+      <screen x="63" y="0" width="1473" height="812" />
     </state>
-    <state width="1430" height="460" key="GridCell.Tab.0.center/63.0.1473.811@63.0.1473.811" timestamp="1603281791402" />
+    <state width="1430" height="260" key="GridCell.Tab.0.center/63.0.1473.811@63.0.1473.811" timestamp="1603344943416" />
+    <state width="1430" height="273" key="GridCell.Tab.0.center/63.0.1473.812@63.0.1473.812" timestamp="1603371689063" />
     <state width="1430" height="272" key="GridCell.Tab.0.center/63.0.1473.813@63.0.1473.813" timestamp="1603294198546" />
     <state width="1430" height="263" key="GridCell.Tab.0.center/63.0.1473.814@63.0.1473.814" timestamp="1603267965365" />
-    <state width="1430" height="272" key="GridCell.Tab.0.left" timestamp="1603294198546">
-      <screen x="63" y="0" width="1473" height="813" />
+    <state width="1430" height="271" key="GridCell.Tab.0.center/63.0.1473.817@63.0.1473.817" timestamp="1603361150416" />
+    <state width="1430" height="273" key="GridCell.Tab.0.left" timestamp="1603371689063">
+      <screen x="63" y="0" width="1473" height="812" />
     </state>
-    <state width="1430" height="460" key="GridCell.Tab.0.left/63.0.1473.811@63.0.1473.811" timestamp="1603281791402" />
+    <state width="1430" height="260" key="GridCell.Tab.0.left/63.0.1473.811@63.0.1473.811" timestamp="1603344943416" />
+    <state width="1430" height="273" key="GridCell.Tab.0.left/63.0.1473.812@63.0.1473.812" timestamp="1603371689063" />
     <state width="1430" height="272" key="GridCell.Tab.0.left/63.0.1473.813@63.0.1473.813" timestamp="1603294198546" />
     <state width="1430" height="263" key="GridCell.Tab.0.left/63.0.1473.814@63.0.1473.814" timestamp="1603267965364" />
-    <state width="1430" height="272" key="GridCell.Tab.0.right" timestamp="1603294198547">
-      <screen x="63" y="0" width="1473" height="813" />
+    <state width="1430" height="271" key="GridCell.Tab.0.left/63.0.1473.817@63.0.1473.817" timestamp="1603361150416" />
+    <state width="1430" height="273" key="GridCell.Tab.0.right" timestamp="1603371689064">
+      <screen x="63" y="0" width="1473" height="812" />
     </state>
-    <state width="1430" height="460" key="GridCell.Tab.0.right/63.0.1473.811@63.0.1473.811" timestamp="1603281791402" />
+    <state width="1430" height="260" key="GridCell.Tab.0.right/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
+    <state width="1430" height="273" key="GridCell.Tab.0.right/63.0.1473.812@63.0.1473.812" timestamp="1603371689063" />
     <state width="1430" height="272" key="GridCell.Tab.0.right/63.0.1473.813@63.0.1473.813" timestamp="1603294198547" />
     <state width="1430" height="263" key="GridCell.Tab.0.right/63.0.1473.814@63.0.1473.814" timestamp="1603267965365" />
-    <state width="1430" height="260" key="GridCell.Tab.1.bottom" timestamp="1603267851562">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="271" key="GridCell.Tab.0.right/63.0.1473.817@63.0.1473.817" timestamp="1603361150416" />
+    <state width="1430" height="260" key="GridCell.Tab.1.bottom" timestamp="1603344943417">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.1.bottom/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
     <state width="1430" height="260" key="GridCell.Tab.1.bottom/63.0.1473.814@63.0.1473.814" timestamp="1603267851562" />
-    <state width="1430" height="260" key="GridCell.Tab.1.center" timestamp="1603267851562">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.1.center" timestamp="1603344943417">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.1.center/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
     <state width="1430" height="260" key="GridCell.Tab.1.center/63.0.1473.814@63.0.1473.814" timestamp="1603267851562" />
-    <state width="1430" height="260" key="GridCell.Tab.1.left" timestamp="1603267851562">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.1.left" timestamp="1603344943417">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.1.left/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
     <state width="1430" height="260" key="GridCell.Tab.1.left/63.0.1473.814@63.0.1473.814" timestamp="1603267851562" />
-    <state width="1430" height="260" key="GridCell.Tab.1.right" timestamp="1603267851562">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.1.right" timestamp="1603344943417">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.1.right/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
     <state width="1430" height="260" key="GridCell.Tab.1.right/63.0.1473.814@63.0.1473.814" timestamp="1603267851562" />
-    <state width="1430" height="260" key="GridCell.Tab.2.bottom" timestamp="1603267851563">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.2.bottom" timestamp="1603344943418">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.2.bottom/63.0.1473.811@63.0.1473.811" timestamp="1603344943418" />
     <state width="1430" height="260" key="GridCell.Tab.2.bottom/63.0.1473.814@63.0.1473.814" timestamp="1603267851563" />
-    <state width="1430" height="260" key="GridCell.Tab.2.center" timestamp="1603267851562">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.2.center" timestamp="1603344943417">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.2.center/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
     <state width="1430" height="260" key="GridCell.Tab.2.center/63.0.1473.814@63.0.1473.814" timestamp="1603267851562" />
-    <state width="1430" height="260" key="GridCell.Tab.2.left" timestamp="1603267851562">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.2.left" timestamp="1603344943417">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.2.left/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
     <state width="1430" height="260" key="GridCell.Tab.2.left/63.0.1473.814@63.0.1473.814" timestamp="1603267851562" />
-    <state width="1430" height="260" key="GridCell.Tab.2.right" timestamp="1603267851562">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.2.right" timestamp="1603344943417">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.2.right/63.0.1473.811@63.0.1473.811" timestamp="1603344943417" />
     <state width="1430" height="260" key="GridCell.Tab.2.right/63.0.1473.814@63.0.1473.814" timestamp="1603267851562" />
-    <state width="1430" height="260" key="GridCell.Tab.3.bottom" timestamp="1603267851563">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.3.bottom" timestamp="1603344943418">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.3.bottom/63.0.1473.811@63.0.1473.811" timestamp="1603344943418" />
     <state width="1430" height="260" key="GridCell.Tab.3.bottom/63.0.1473.814@63.0.1473.814" timestamp="1603267851563" />
-    <state width="1430" height="260" key="GridCell.Tab.3.center" timestamp="1603267851563">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.3.center" timestamp="1603344943418">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.3.center/63.0.1473.811@63.0.1473.811" timestamp="1603344943418" />
     <state width="1430" height="260" key="GridCell.Tab.3.center/63.0.1473.814@63.0.1473.814" timestamp="1603267851563" />
-    <state width="1430" height="260" key="GridCell.Tab.3.left" timestamp="1603267851563">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.3.left" timestamp="1603344943418">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.3.left/63.0.1473.811@63.0.1473.811" timestamp="1603344943418" />
     <state width="1430" height="260" key="GridCell.Tab.3.left/63.0.1473.814@63.0.1473.814" timestamp="1603267851563" />
-    <state width="1430" height="260" key="GridCell.Tab.3.right" timestamp="1603267851563">
-      <screen x="63" y="0" width="1473" height="814" />
+    <state width="1430" height="260" key="GridCell.Tab.3.right" timestamp="1603344943418">
+      <screen x="63" y="0" width="1473" height="811" />
     </state>
+    <state width="1430" height="260" key="GridCell.Tab.3.right/63.0.1473.811@63.0.1473.811" timestamp="1603344943418" />
     <state width="1430" height="260" key="GridCell.Tab.3.right/63.0.1473.814@63.0.1473.814" timestamp="1603267851563" />
     <state x="301" y="51" key="SettingsEditor" timestamp="1603290870127">
       <screen x="63" y="0" width="1473" height="813" />
@@ -261,5 +264,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/react_unit_test$Operate_Panel.info" NAME="Operate-Panel Coverage Results" MODIFIED="1603294044328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/react_unit_test$Util.info" NAME="Util Coverage Results" MODIFIED="1603294016305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/react_unit_test$Todo_List_todo_item.info" NAME="Todo-List.在输入框中输入内容回车后，应该新增一条todo-item Coverage Results" MODIFIED="1603352883213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

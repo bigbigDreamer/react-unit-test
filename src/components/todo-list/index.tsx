@@ -22,12 +22,10 @@ const TodoList: FC = () => {
 
     const [state, dispatch] = useReducer(reducer, init);
 
-    console.log(state);
-
     return (
         <div className="todo-list">
             <OperatePanel dispatch={dispatch}/>
-            <List/>
+            <List list={state.todolist}/>
         </div>
     )
 };
