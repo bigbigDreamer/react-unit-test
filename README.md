@@ -23,12 +23,12 @@
 </summary>
 
 - [2.1 怎么开始测试](./docs/unit-2/2-1.md)
-- [2.2 state测试--class组件](./docs/unit-2/2-2.md)
-- [2.3 state测试--function组件](./docs/unit-2/2-3.md)
-- [2.4 props测试](./docs/unit-2/2-4.md)
-- [2.5 context测试](./docs/unit-2/2-5.md)
-- [2.6 hooks测试](./docs/unit-2/2-6.md)
-- [2.7 redux测试](./docs/unit-2/2-7.md)
+- [~~2.2 state测试--class组件~~（已断更）](./docs/unit-2/2-2.md)
+- [~~2.3 state测试--function组件~~（已断更）](./docs/unit-2/2-3.md)
+- [~~2.4 props测试~~（已断更）](./docs/unit-2/2-4.md)
+- [~~2.5 context测试~~（已断更）](./docs/unit-2/2-5.md)
+- [~~2.6 hooks测试~~（已断更）](./docs/unit-2/2-6.md)
+- [~~2.7 redux测试~~（已断更）](./docs/unit-2/2-7.md)
     
 </details>
 
