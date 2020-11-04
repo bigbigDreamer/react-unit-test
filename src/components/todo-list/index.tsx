@@ -3,7 +3,6 @@ import List from "./list";
 import OperatePanel from "./operate-panel";
 import { InitShape, ReducerShape } from './interface';
 
-
 const init: InitShape =  { todolist: [] };
 
 const reducer: ReducerShape = (state, action) => {
