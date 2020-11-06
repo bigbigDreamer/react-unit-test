@@ -6,7 +6,6 @@ import { renderRoutes } from 'react-router-config';
 import store from './store';
 import routes from './router';
 
-
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>

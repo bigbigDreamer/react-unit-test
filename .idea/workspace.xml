@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca73559f-1cb5-4fee-8b9f-df0a84fc1344" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/redux/index.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-mini-router/debounce&amp;throllble.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/react-mini-router/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/todo-list/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/todo-list/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +107,7 @@
       <workItem from="1604281374098" duration="44000" />
       <workItem from="1604316548422" duration="1691000" />
       <workItem from="1604392094745" duration="10629000" />
-      <workItem from="1604468981310" duration="11366000" />
+      <workItem from="1604468981310" duration="12645000" />
     </task>
     <servers />
   </component>
